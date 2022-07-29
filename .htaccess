@@ -1,0 +1,10 @@
+# www無しのURLに統一
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.○○○ドメイン名○○○.co.jp
+RewriteRule ^(.*) light-create2206.github.io/$1 [R=301,L]
+ 
+ 
+# index.html（php）無しのURLに統一
+RewriteEngine On
+RewriteCond %{THE_REQUEST} ^.*/index.(html|htm|php)
+RewriteRule ^(.*)index.(html|htm|php)$ light-create2206.github.io/$1 [R=301,L]
