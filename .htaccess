@@ -11,3 +11,8 @@ RewriteEngine on
 RewriteCond %{THE_REQUEST} ^.*/index.html
 
 RewriteRule ^(.*)index.html$light-create2206.github.io/$1 [R=301,L]
+
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteRule ^CUTS(.*)$ guidelines$1 [R=301,L]
+</IfModule>
