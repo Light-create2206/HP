@@ -28,6 +28,7 @@ img {
   display: none;
 }
 
+
 /*--------------------------------
  レイアウト
 ---------------------------------*/
@@ -172,54 +173,34 @@ img {
 }
 
 /*--------------------------------
- news
+ new
 ---------------------------------*/
+.new{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 352px;
+  height: 198px;
+}
 .works-list {
+  justify-content: center;
   display: flex;
   flex-wrap: wrap;
   margin-bottom: -40px;
 }
 
-.works-item {
-  width: 31.74603%;
-  margin-right: 1.58730%;
-  margin-bottom: 40px;
-  color: #333;
+.new-audio{
+  text-align: center;
+  padding: 100px 0px 0px;
 }
-
-.works-item:hover {
-  opacity: .9;
-}
-
-.works-item:nth-of-type(3n) {
-  margin-right: 0;
-}
-
-.works-img img {
-  border: 1px solid #e6e6e6;
-}
-
-.works-name {
-  font-size: 12px;
-  font-weight: bold;
-  margin-top: 8px;
-}
-
-.works-info {
-  font-size: 10px;
-  margin-top: 5px;
-}
-
 /*--------------------------------
- apply
+ archibe
 ---------------------------------*/
-.apply{
-  text-align: center;
+.archive{
+  text-align: center; 
 }
-
-.apply-img{
-  width: 300px;
-  text-align: center;
+.archie-text{
+  padding: 50px 0px 15px;
 }
 /*--------------------------------
  Contact
@@ -367,7 +348,7 @@ img {
   }
 
   .mv-title {
-    font-size: 26px;
+    font-size: 28px;
   }
   .mv-subtitle {
     font-size: 16px;
@@ -379,23 +360,10 @@ img {
     line-height: 1.7;
   }
 
-  /* Works */
-  .works-name {
-    font-size: 12px;
-  }
-
-  .works-info {
-    margin-top: 3px;
-  }
-
-  .works-list {
-    justify-content: space-between;
-  }
-
-  .works-item {
-    flex: 0 0 48%;
-    margin-right: 0;
-    margin-bottom: 30px;
+  /* new */
+  .new{
+    width: 256px;
+    height: 144px;
   }
 
 
